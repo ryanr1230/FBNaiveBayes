@@ -1,3 +1,5 @@
+//Implementation based off of:
+//http://scikit-learn.org/stable/modules/naive_bayes.html
 function BayesClassifier() {
    this.numWords = {true: 0, false: 0, 'all': 0};
    this.numDocs = {true: 0, false: 0, 'all':0};
